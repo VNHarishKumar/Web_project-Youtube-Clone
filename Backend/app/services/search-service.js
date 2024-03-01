@@ -20,25 +20,7 @@ export const search = async (text,page,limit) => {
    
       
 
-//   if (parseInt(limit) !== 0) {
-//     search = search.slice(startIndex, endIndex)
-//   }
 
-//   const pagination = {}
-
-//   if (endIndex < total) {
-//     pagination.next = {
-//       page: page + 1,
-//       limit
-//     }
-//   }
-
-//   if (startIndex > 0) {
-//     pagination.prev = {
-//       page: page - 1,
-//       limit
-//     }
-//   }
      return search;
 
 }
