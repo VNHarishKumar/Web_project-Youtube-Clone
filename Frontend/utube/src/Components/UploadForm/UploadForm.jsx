@@ -45,19 +45,7 @@ const UploadForm = () => {
           });
       };
 
-    //   const getAllMedias = () => {
-    //     fetch(`${BACKEND_URI}/videos/`)
-    //       .then(response => response.json())
-    //       .then(data => {
-    //         setMedias(data.data.data);
-    //       })
-    //       .catch(error => {
-    //         setMedias([]);
-    //         console.log(error);
-    //         alert("Error Happened! in UPLOAD FORM");
-    //       });
-    //   };
-
+   
     console.log(medias);
 
     return(
