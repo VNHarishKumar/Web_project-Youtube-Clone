@@ -23,21 +23,10 @@ import "./homepage.scss";
 import Container from "react-bootstrap/esm/Container";
 
 const Homepage = () => {
-  // const handletoken = () => {
-  //   // const token = JSON.stringify(JSON.parse(localStorage.getItem("token")));
-  //   const token = localStorage.getItem("token");
-  //   console.log(token);
-  // };
-  // handletoken();
-
+ 
   const [show, setShow] = useState(true);
 
-  // function btnpress(e) {
-  //     e.preventDefault();
-  // setShow(!show);
-  //     // further processing happens here
-  //  }
-
+ 
 
     const handletoken = () =>{
         // const token = JSON.stringify(JSON.parse(localStorage.getItem("token")));
@@ -48,13 +37,7 @@ const Homepage = () => {
     
 
 
-    // const [show,setShow]=useState(true);
-    
-    // function btnpress(e) {
-    //     e.preventDefault();
-    // setShow(!show);
-    //     // further processing happens here
-    //  }
+ 
 
     return(
         <div className="fn1">
