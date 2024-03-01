@@ -45,16 +45,6 @@ const VideoPlayer = () => {
   //console.log("video url " + videoData.data.url);
   const user = videoData.userId;
 
-//   const video = document.getElementById('myVideo');
-// const pauseSymbol = document.getElementById('pauseSymbol');
-
-// video.addEventListener('pause', () => {
-//   pauseSymbol.style.display = 'block';
-// });
-
-// video.addEventListener('play', () => {
-//   pauseSymbol.style.display = 'none';
-// });
 
   const handleThumbsUpHover = () => {
     setIsThumbsUpHovered(true);
@@ -89,12 +79,7 @@ const VideoPlayer = () => {
 
       return response.json();
     });
-    // .then(data => {
-    //   console.log('Feeling saved:', data);
-    // })
-    // .catch(error => {
-    //   console.error('Error saving feeling:', error);
-    // });
+  
     window.location.reload(true);
   };
 
