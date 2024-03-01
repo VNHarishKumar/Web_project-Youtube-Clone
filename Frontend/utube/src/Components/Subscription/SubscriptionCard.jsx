@@ -72,16 +72,3 @@ const SubscriptionCard =  ({medias})=> {
 
 export default SubscriptionCard;
 
-// {/* <div className="video">
-// {/* {medias && medias.map((media) => { */}
-//     {/* return ( */}
-//     <div className="content">
-//     <img className="thumbnail" src={`${BACKEND_URI}/public/videos/${medias.thumbNailUrl}`} ></img>
-//     <div className="info">
-//         <h4 className="title">{medias.views} <br></br>{medias.userId.firstName}</h4>
-//     </div>
-// </div>
-//     {/* ) */}
-// {/* })} */}
-
-// </div> */}
