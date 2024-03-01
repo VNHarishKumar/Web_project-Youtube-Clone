@@ -4,15 +4,7 @@ import { BACKEND_URI } from "../Config/constants";
 
 const UploadList = ({medias}) => {
 
-    // const deleteVdo = (id) => {
-        
-    //     fetch(`http://localhost:9002/videos/`+id,{
-    //         method: 'DELETE',
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     }).then
-    // }
+
 
     const deleteVdo = (id,_id) => {
         fetch(`${BACKEND_URI}/videos/`+_id, {
@@ -39,8 +31,7 @@ const UploadList = ({medias}) => {
       
 
     
-        // console.log("medias type: ", typeof medias);
-        // console.log("medias value: ", medias);
+     
       
       
 
@@ -55,8 +46,7 @@ const UploadList = ({medias}) => {
                         </tr>
                     </thead>
                     <tbody>
-                    {/* {`${BACKEND_URI}/public/videos/${media.url}`} */}
-                    {/* let atry = {`${BACKEND_URI}/public/videos/${media.url}`}; */}
+                
                         {medias && medias.map(media => {
                             return(
                                 <tr>
@@ -79,10 +69,5 @@ const UploadList = ({medias}) => {
 }
 
 
- {/* <td>{media.name}</td> */}
-//  <td>{media.videos.map(video => {return (
-//     <video preload="auto" width="320" height="240" controls>
-//         <source src={`${BACKEND_URI}${media.url}`} />;Your browser does not support video tag
-//     </video>
 
 export default UploadList;
