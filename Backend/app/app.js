@@ -44,18 +44,6 @@ mongoose
     console.error(`Error connecting to the database. \n${err}`);
   });
 
-// const { MongoClient, ServerApiVersion } = require("mongodb");
-// const uri =
-//   "mongodb+srv://<webFinalProjectHABK>:<password1234>@habkfinalproject.3msa2s6.mongodb.net/?retryWrites=true&w=majority";
-// const client = new MongoClient(uri, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-//   serverApi: ServerApiVersion.v1,
-// });
-// client.connect((err) => {
-//   const collection = client.db("userdb").collection("users");
-//   // perform actions on the collection object
-//   client.close();
-// });
+
 
 export default app;
